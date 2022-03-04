@@ -1,0 +1,4 @@
+<launch>
+  <node name="yolo_ros" pkg="yolo_trt_ros" type="trt_yolo_ros.py" output="screen" cwd="node"> 
+  </node>
+</launch>
