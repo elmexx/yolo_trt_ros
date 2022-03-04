@@ -26,5 +26,7 @@
     $ roslaunch usb_cam usb_cam-test.launch
     $ roslaunch yolo_trt_ros yolo_ros.launch
 
+Acknowledgements：
+https://github.com/jkjung-avt/tensorrt_demos
 
 
