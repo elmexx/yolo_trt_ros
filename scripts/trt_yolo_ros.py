@@ -42,7 +42,7 @@ VERBOSE=False
 package = RosPack()
 package_path = package.get_path('yolo_trt_ros')
 
-class detect_image(object):
+class yolo_ros(object):
 
     def __init__(self):
         '''Initialize ros publisher, ros subscriber'''
@@ -119,8 +119,8 @@ class detect_image(object):
 def main():
     
     '''Initializes and cleanup ros node'''
-    yolo = detect_image()
-    rospy.init_node('detect_image', anonymous=True)
+    yolo = yolo_ros()
+    rospy.init_node('yolo_ros', anonymous=True)
     try:
         rospy.spin()
     except KeyboardInterrupt:
