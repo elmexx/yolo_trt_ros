@@ -2,7 +2,7 @@
 
 1. Install "pycuda".
 
-    $ cd /yolo_trt_ros/yolo
+    $ cd /yolo_trt_ros/scripts/yolo
     $ ./install_pycuda.sh
 
 2. Install version "1.4.1" (not the latest version) of python3 "onnx" module. Note that the "onnx" module would depend on "protobuf" as stated in the Prerequisite section. Reference: information provided by NVIDIA.
